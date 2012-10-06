@@ -129,6 +129,7 @@ div#featured span#tags {
 	color: #ffffff;
 	font-size: 16px;
   text-decoration: underline;
+  	margin-top: 10px;
 }
 
 div#featured span#name {
@@ -138,6 +139,7 @@ div#featured span#name {
 	color: #ffffff;
 	font-size: 40px;
 	letter-spacing:3px;
+		margin-top: 10px;
 }
 
 div#featured span#desc {
@@ -145,7 +147,9 @@ div#featured span#desc {
 	font-family: 'SofiaProLightRegular', Arial, sans-serif;
 	color: #ffffff;
 	font-size: 20px;
+	margin-top: 10px;
 }
+
 
 div#featured a {
 	background-color:rgba(239,235,235,0.35);
