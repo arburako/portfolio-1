@@ -20,13 +20,14 @@ time, mark, audio, video {
 }
 
 div#top {
-	background-color:#7bb6d1;
+	background-color:#7cc2de;
 	padding-top:20px;
 }
 
 #header-container {
 	width: 100%;
-	background-color:#507688;
+	background-color:#efebeb;
+	opacity:0.4;
 }
 
 #header {
