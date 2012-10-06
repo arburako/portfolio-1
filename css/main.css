@@ -26,8 +26,7 @@ div#top {
 
 #header-container {
 	width: 100%;
-	background-color:#efebeb;
-	opacity:0.4;
+	background-color:rgba(239,235,235,0.5);
 }
 
 #header {
