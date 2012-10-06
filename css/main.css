@@ -1,4 +1,4 @@
-html, body, div, span, object, iframe,
+html, body, div, span, object, button, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
@@ -40,7 +40,7 @@ div.top {
 
 #header-container {
 	width: 100%;
-	background-color:rgba(239,235,235,0.5);
+	background-color:rgba(239,235,235,0.35);
 }
 
 #header {
@@ -111,7 +111,45 @@ div#nav {
   margin: 0px auto;
 }
 
+div#featured-text {
+  display: block;
+  float: left;
+	margin-left: 30px;
+}
+
 div#featured img#featured-img {
   display: block;
   float: left;
+}
+
+div#featured h3 {
+	font-family: 'SofiaProLightRegular', Arial, sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+
+}
+
+div#featured h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 40px;
+	letter-spacing:3px;
+}
+
+div#featured h2 {
+	font-family: 'SofiaProLightRegular', Arial, sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+div#featured button {
+	background-color:rgba(239,235,235,0.35);
+	padding: 8px 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 18px;
+	letter-spacing:1px;
+
 }
