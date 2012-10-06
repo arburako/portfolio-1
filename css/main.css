@@ -162,3 +162,8 @@ div#featured a {
 	margin-top: 30px;
 
 }
+
+div#featured a:hover {
+	background-color:rgba(239,235,235,0.5);
+
+}
