@@ -53,14 +53,14 @@ div#top {
 
 #name h2{
 	font-family: 'SofiaProLightRegular', Arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: #2e2e2e;
 	margin-top: 8px;
 	margin-left: 155px;
 }
 
 div.box {
-  padding: 10px 15px;
+  padding: 10px 50px 10px 30px;
   border-left: 1px solid #7bb6d1;
   float: right;
 }
@@ -70,7 +70,7 @@ div.box ul li:last-child {
 
 div#nav {
   float: right;
-  padding: 0px 15px;
+  padding: 0px 0px;
 }
 #nav ul{
     list-style:none;
@@ -78,7 +78,7 @@ div#nav {
 
 #nav a{
 	font-family: 'SofiaProLightRegular', Arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: #2e2e2e;
 	text-decoration:none;
 }
@@ -86,6 +86,9 @@ div#nav {
 	color:#FFFFFF;
 }
 
+#nav a.current-page {
+	color:#ffffff;
+}
 #featured {
   width: 960px;
   background-color: #FFFFFF;
