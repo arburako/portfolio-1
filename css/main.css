@@ -19,6 +19,10 @@ time, mark, audio, video {
     background:transparent;
 }
 
+body {
+	background-color:#efebeb;
+}
+
 div#top {
 	background-color:#7cc2de;
 	padding-top:20px;
@@ -91,7 +95,6 @@ div#nav {
 }
 #featured {
   width: 960px;
-  background-color: #FFFFFF;
   height: 360px;
   margin: 0px auto;
 }
