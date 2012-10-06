@@ -21,6 +21,7 @@ time, mark, audio, video {
 
 body {
   padding-top: 112px;
+  background-color: #efebeb;
 }
 
 div#header-offset {
