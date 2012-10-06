@@ -103,8 +103,15 @@ div#nav {
 #nav a.current-page {
 	color:#ffffff;
 }
+
 #featured {
   width: 960px;
-  height: 360px;
+  height: 225px;
+  padding-top: 20px;
   margin: 0px auto;
+}
+
+div#featured img#featured-img {
+  display: block;
+  float: left;
 }
