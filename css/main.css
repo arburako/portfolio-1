@@ -64,6 +64,9 @@ div.box {
   border-left: 1px solid #7bb6d1;
   float: right;
 }
+div.box ul li:last-child {
+  margin-top: 8px;
+}
 
 div#nav {
   float: right;
