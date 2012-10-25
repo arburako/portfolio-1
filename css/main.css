@@ -25,7 +25,7 @@ body {
 }
 
 div#header-offset {
-	background-color:#7cc2de;
+	background-color:#69BFE6;
 	padding-top:20px;
   position: fixed;
   top: 0px;
@@ -34,13 +34,13 @@ div#header-offset {
 }
 
 div.top {
-	background-color:#7cc2de;
+	background-color:#69BFE6;
 }
 
 
 #header-container {
 	width: 100%;
-	background-color:rgba(239,235,235,0.35);
+	background-color:rgba(239,235,235,0.5);
 }
 
 #header {
@@ -54,30 +54,37 @@ div.top {
 	float:left;
 }
 
-#name h1{
+#name h2{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	color: #ffffff;
-	font-size: 26px;
-	letter-spacing:2px;
+	font-weight: 600;
+	color: #2e2e2e;
+	font-size: 20px;
+	letter-spacing:6px;
 	margin-left: 100px;
-	padding-left: 60px;
+		margin-top: 6px;
+
+	padding-left: 42px;
 	
 }
 
-#name h2{
-	font-family: 'SofiaProLightRegular', Arial, sans-serif;
-	font-size: 18px;
+#name h1{
+		font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
 	color: #2e2e2e;
-	margin-top: 8px;
-	margin-left: 155px;
+	letter-spacing:2px;
+	margin-top: 4px;
+	margin-left: 146px;
 }
 
 div.box {
-  padding: 10px 50px 10px 30px;
-  border-left: 1px solid #7bb6d1;
+  padding: 10px 55px 10px 42px;
+  border-right: 1px solid #43b0e1;
   float: right;
 }
+
+
+
 div.box ul li:last-child {
   margin-top: 8px;
 }
@@ -91,17 +98,18 @@ div#nav {
 }
 
 #nav a{
-	font-family: 'SofiaProLightRegular', Arial, sans-serif;
-	font-size: 18px;
-	color: #2e2e2e;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #ffffff;
 	text-decoration:none;
 }
 #nav a:hover, #nav a:active {
-	color:#FFFFFF;
+	color:#2e2e2e;
 }
 
 #nav a.current-page {
-	color:#ffffff;
+	color:#2e2e2e;
 }
 
 #featured {
@@ -134,10 +142,10 @@ div#featured span#tags {
 div#featured span#name {
   display: block;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 	color: #ffffff;
 	font-size: 40px;
-	letter-spacing:2px;
+	letter-spacing:1px;
 	margin-top: 10px;
 }
 
@@ -153,7 +161,7 @@ div#featured a {
 	background-color:rgba(239,235,235,0.35);
 	padding: 8px 15px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 	color: #ffffff;
 	font-size: 18px;
 	letter-spacing:1px;
@@ -166,4 +174,36 @@ div#featured a {
 div#featured a:hover {
 	background-color:rgba(239,235,235,0.5);
 
+}
+
+div.content {
+	width: 960px;
+  	margin: 0px auto;
+  	padding-top: 40px;
+}
+
+div.content span#content-header {
+  display: block;
+  
+  	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+
+  
+	color: #2e2e2e;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.portfolio-project{
+	float:left;
+	margin-right: 42px;
+	width: 292px;
+}
+
+.portfolio-project.last{
+	margin-right:0px;
+}
+
+.portfolio-project a:hover {
+	opacity:0.4;
 }
