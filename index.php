@@ -22,7 +22,7 @@
           <a href="#portfolio"><img src="img/logo.png" ></a>
         </div>
         <div id="nav">
-          <div class="box last">
+          <div class="box">
             <ul>
               <li><a href="#resume">Resume</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -36,8 +36,8 @@
           </div>	
         </div>	
         <div id="name">
-          <h1>JESSICA</h1>
-          <h2>CRABB</h2>
+          <h1>JESSICA CRABB</h1>
+          <h2>UX | IxD | UI</h2>
         </div>
       </div>
     </div>
