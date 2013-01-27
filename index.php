@@ -8,12 +8,11 @@
 	<title>Jessica Crabb | UX Portfolio</title>
 	<meta name="description" content="" />
 
-
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/sofia.css" type="text/css" charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKit.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
-	<script src="js/main.js"></script>
+  <script src="js/jquery.min.js"></script>
 </head>
 <body>
   <div id="header">
@@ -40,16 +39,20 @@
     </div>
   </div>
 
-  <div class="top">
-    <div id="featured">
-      <a id="feat" href="#port1"><img id="featured-img" src="img/featured_tp_green.png" /></a>
-      <div id="featured-text">
-		  <span id="tags">FEATURED PROJECT</span>
-		  <span id="name">TASK PLANET</span>
-      <span id="name2">ANDROID APP</span>
-		  <span id="desc">Complete your to-do list to save the world!</span>
-		  <a id ="oldhov" href="#project1">UI | UX</a>
-    </div>
+  <div class="top">   
+    <a id="feat" href="#port1">
+      <div id="featured">
+        <figure class="tint">
+            <img id="featured-img" src="img/featured_tp.png" />
+        </figure>
+        <div id="featured-text">
+  		  <span id="tags">FEATURED PROJECT</span>
+  		  <span id="name">TASK PLANET</span>
+        <span id="name2">ANDROID APP</span>
+  		  <span id="desc">Complete your to-do list to save the world!</span>
+  		  <a id ="oldhov" href="#project1">UI | UX</a>
+      </div>
+    </a>
   </div>
   
   <div class="content">
@@ -58,25 +61,25 @@
   	</div>
   	<div class="portfolio-project">
 		<div class="img">
-			<div>
-			</div>
-			<img src="img/cbthumb_green.png "/>
+      <figure class="tint">
+			 <img class="tint-image" src="img/cbthumb.png"/>
+      </figure>
 		</div>
   	</div>
   	
   	<div class="portfolio-project">
 		<div class="img">
-			<div>
-			</div>
-			<img src="img/tpthumb_green.png "/>
+      <figure class="tint">
+			 <img class="tint-image" src="img/tpthumb.png"/>
+      </figure>
 		</div>
   	</div>
   	
   	<div class="portfolio-project last">
 		<div class="img">
-			<div>
-			</div>
-			<img src="img/rfthumb_green.png "/>
+      <figure class="tint">
+			 <img class="tint-image" src="img/rfthumb.png"/>
+      </figure>
 		</div>
   	</div>
   	
@@ -97,6 +100,7 @@
       <span id="footer_contact_text">jessica.crabb@gatech.edu</br> 912-337-1764</span>
     </div>
   </div>
-  
+    <script src="js/main.js"></script>
+
 </body>
 </html>

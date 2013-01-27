@@ -115,6 +115,13 @@ div#featured-text {
 div#featured img#featured-img {
   display: inline-block;
   float: left;
+  opacity: .9;
+}
+
+img.tint-image {
+	display: inline-block;
+	float: left;
+	opacity: .9;
 }
 
 div#featured span#tags {
@@ -174,8 +181,13 @@ div#featured a#oldhov:hover {
 
 }
 
-div#featured a#feat:hover{
-	background-image:"img/featured_tp.png";
+a#feat{
+	text-decoration:none;
+}
+
+figure.tint{
+	float:left;
+	background: #94a192;
 }
 
 div.content {
