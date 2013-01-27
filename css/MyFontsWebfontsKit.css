@@ -1,0 +1,26 @@
+/* @license
+ * MyFonts Webfont Build ID 2459470, 2013-01-24T22:44:52-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Sofia Pro Bold by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/bold/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2459470
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/25874e");
+
+  
+@font-face {font-family: 'SofiaProBold';src: url('webfonts/25874E_0_0.eot');src: url('webfonts/25874E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25874E_0_0.woff') format('woff'),url('webfonts/25874E_0_0.ttf') format('truetype');}
+ 

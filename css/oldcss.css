@@ -1,0 +1,236 @@
+html, body, div, span, object, button, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+
+body {
+  padding-top: 112px;
+  background-color: #efebeb;
+}
+
+div#header-offset {
+	background-color:#69BFE6;
+	padding-top:20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+	z-index: 1;
+}
+
+div.top {
+	background-color:#69BFE6;
+	border-bottom: 1px solid #54a1c4;
+
+}
+
+
+#header-container {
+	width: 100%;
+	background-color:rgba(239,235,235,0.25);
+	border-bottom: 1px solid #43B0E1;
+
+	
+}
+
+#header {
+	width: 960px;
+  height: 72px;
+  padding: 10px 0px;
+  margin: 0px auto;
+}
+
+#logo {
+	float:left;
+}
+
+#name h1{
+	font-family: 'SofiaProBold', sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+	color: #2e2e2e;
+	letter-spacing: 1px;
+	margin-left: 138px;
+	margin-top:6px;
+
+}
+
+#name h2{
+	font-family: 'SofiaProBold', sans-serif;
+	color: #2e2e2e;
+	font-size: 18px;
+	margin-left: 135px;
+	margin-top: 8px;
+	font-weight: 400;
+}
+
+
+div.box {
+	padding: 5px 41px 8px 23px;
+	border-left: 1px solid #43B0E1;
+	float: right;
+	margin: 5px 0px 5px 0px;
+}
+
+div.box ul li:last-child {
+  margin-top: 8px;
+}
+
+div#nav {
+  float: right;
+  padding: 0px 0px;
+}
+#nav ul{
+    list-style:none;
+}
+
+#nav a{
+	font-family: 'SofiaProBold', sans-serif;
+	font-size: 16px;
+	color: #2e2e2e;
+	text-decoration:none;
+}
+#nav a:hover, #nav a:active {
+	color:#2e2e2e;
+}
+
+#nav a.current-page {
+	color:#fdfffd;
+}
+
+#featured {
+  width: 960px;
+  height: 225px;
+  padding-top: 20px;
+  margin: 0px auto;
+}
+
+div#featured-text {
+  display: block;
+  float: left;
+  margin-left: 42px;
+  margin-top: 20px;
+}
+
+div#featured img#featured-img {
+  display: inline-block;
+  float: left;
+}
+
+div#featured span#tags {
+  display: block;
+	font-family: 'SofiaProLightRegular', Arial, sans-serif;
+	color: #fdfffd;
+	font-size: 16px;
+  text-decoration: none;
+}
+
+div#featured span#name {
+  display: block;
+	font-family: 'SofiaProBold', sans-serif;
+	font-weight: 600;
+	color: #fdfffd;
+	font-size: 40px;
+	letter-spacing:1px;
+	margin-top: 10px;
+}
+
+div#featured span#desc {
+  display: block;
+	font-family: 'SofiaProLightRegular', Arial, sans-serif;
+	color: #fdfffd;
+	font-size: 20px;
+}
+
+
+div#featured a {
+	background-color:rgba(239,235,235,0.3);
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	font-family: 'SofiaProBold', sans-serif;
+	color: #fdfffd;
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 28px;
+
+
+}
+
+div#featured a:hover {
+	background-color:rgba(239,235,235,0.5);
+
+}
+
+div.content {
+	width: 960px;
+  	margin: 0px auto;
+  	padding-top: 40px;
+}
+
+div.content span#content-header {
+  display: block;
+  
+  	font-family: 'SofiaProBold', sans-serif;
+	font-weight: 600;
+
+  
+	color: #2e2e2e;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.portfolio-project{
+	float:left;
+	margin-right: 42px;
+	width: 292px;
+}
+
+.portfolio-project .img {
+	width: 292px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+.portfolio-project .img div {
+	width: 292px;
+	height: 200px;
+	position: absolute;
+	top: -200px;
+}
+
+.portfolio-project img {
+	width: 292px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+}
+
+.portfolio-project.last{
+	margin-right:0px;
+}
+
+.portfolio-project a:hover {
+	opacity:0.4;
+}

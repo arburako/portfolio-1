@@ -19,68 +19,55 @@ time, mark, audio, video {
     background:transparent;
 }
 
+
+
 body {
-  padding-top: 112px;
-  background-color: #efebeb;
-}
-
-div#header-offset {
-	background-color:#69BFE6;
-	padding-top:20px;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-	z-index: 1;
-}
-
-div.top {
-	background-color:#69BFE6;
+  background-color: #f4f4f4;
 }
 
 
-#header-container {
-	width: 100%;
-	background-color:rgba(239,235,235,0.5);
-}
+
 
 #header {
 	width: 960px;
-  height: 72px;
-  padding: 10px 0px;
+  height: 106px;
   margin: 0px auto;
+  border-bottom: 1px solid #7e7c7d;
+
 }
 
 #logo {
 	float:left;
+	padding-top:12px;
+	padding-right: 18px;
+	height: 94px;
+	border-right: 1px solid #94a192;
+	margin-right: 26px;
 }
 
 #name h1{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 20px;
-	color: #2e2e2e;
+	font-family: 'SofiaProBold', sans-serif;
+	font-size: 30px;
+	color: #5e5f5e;
 	letter-spacing: 1px;
-	margin-left: 138px;
-	margin-top:6px;
+	padding-top:24px;
 
 }
 
 #name h2{
-	font-family: 'Open Sans', sans-serif;
-	color: #2e2e2e;
+	font-family: 'SofiaProLightRegular', sans-serif;
+	color: #5e5f5e;
 	font-size: 16px;
-	margin-left: 135px;
-	margin-top: 8px;
-	font-weight: 400;
+	margin-top: 4px;
 }
 
 
 div.box {
-	padding: 5px 41px 8px 40px;
-	border-left: 1px solid #43B0E1;
+	padding: 5px 41px 8px 23px;
+	border-left: 1px solid #94a192;
+	padding-top: 5px;
 	float: right;
-	margin: 2px 0px 5px 0px;
+	height:94px;
 }
 
 div.box ul li:last-child {
@@ -93,35 +80,36 @@ div#nav {
 }
 #nav ul{
     list-style:none;
+    padding-top: 24px;
 }
 
 #nav a{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-family: 'SofiaProBold', sans-serif;
 	font-size: 16px;
-	color: #ffffff;
+	color: #515151;
 	text-decoration:none;
 }
 #nav a:hover, #nav a:active {
-	color:#2e2e2e;
+	color:#6e786c;
 }
 
 #nav a.current-page {
-	color:#2e2e2e;
+	color:#6e786c;
 }
 
 #featured {
+  
+  position:relative;
   width: 960px;
-  height: 225px;
-  padding-top: 20px;
+  height: 220px;
+  padding-top: 28px;
   margin: 0px auto;
 }
 
 div#featured-text {
   display: block;
-  float: left;
-  margin-left: 42px;
-  margin-top: 20px;
+  position: absolute; 
+
 }
 
 div#featured img#featured-img {
@@ -131,65 +119,90 @@ div#featured img#featured-img {
 
 div#featured span#tags {
   display: block;
-	font-family: 'SofiaProLightRegular', Arial, sans-serif;
-	color: #ffffff;
+	font-family: 'SofiaProBold', Arial, sans-serif;
+	color: #f4f4f4;
 	font-size: 16px;
   text-decoration: none;
+  padding-top:8px;
+  padding-left:16px;
 }
 
 div#featured span#name {
   display: block;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	color: #ffffff;
-	font-size: 40px;
+	font-family: 'SofiaProLightRegular', sans-serif;
+	color: #f2f2f2;
+	font-size: 48px;
 	letter-spacing:1px;
-	margin-top: 10px;
+	padding-left:16px;
+	height: 44px;
+	padding-top:10px;
+}
+
+div#featured span#name2 {
+  display: block;
+	font-family: 'SofiaProLightRegular', sans-serif;
+	color: #f2f2f2;
+	font-size: 48px;
+	letter-spacing:1px;
+	padding-left:16px;
 }
 
 div#featured span#desc {
   display: block;
 	font-family: 'SofiaProLightRegular', Arial, sans-serif;
-	color: #ffffff;
-	font-size: 20px;
-}
-
-
-div#featured a {
-	background-color:rgba(239,235,235,0.35);
-	padding: 8px 15px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	color: #ffffff;
+	color: #fdfffd;
 	font-size: 18px;
-	letter-spacing:1px;
+	padding-left:16px;
+	padding-top: 6px;
+}
+
+
+div#featured a#oldhov {
+	padding-left: 16px;
+	padding-top: 18px;
+	font-family: 'SofiaProLightRegular', sans-serif;
+	color: #fdfffd;
+	font-size: 18px;
 	text-decoration: none;
-	display: inline-block;
-	margin-top: 30px;
+	display: block;
+
 
 }
 
-div#featured a:hover {
+div#featured a#oldhov:hover {
 	background-color:rgba(239,235,235,0.5);
 
+}
+
+div#featured a#feat:hover{
+	background-image:"img/featured_tp.png";
 }
 
 div.content {
 	width: 960px;
   	margin: 0px auto;
-  	padding-top: 40px;
+  	padding-top: 36px;
+  	height: 250px;
+	margin-bottom: 36px;
+}
+
+
+div#content-header-box {
+	width: 960px;
+	margin: 0px auto;
+	border-bottom: 1px solid #94a192;
+	margin-bottom: 18px;
 }
 
 div.content span#content-header {
   display: block;
   
-  	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+  	font-family: 'SofiaProBold', sans-serif;
 
   
-	color: #2e2e2e;
+	color: #6e786c;
 	font-size: 16px;
-	margin-bottom: 20px;
+padding-bottom: 8px;
 }
 
 .portfolio-project{
@@ -198,10 +211,112 @@ div.content span#content-header {
 	width: 292px;
 }
 
+.portfolio-project .img {
+	width: 292px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+.portfolio-project .img div {
+	width: 292px;
+	height: 200px;
+	position: absolute;
+	top: -200px;
+}
+
+.portfolio-project img {
+	width: 292px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+}
+
 .portfolio-project.last{
 	margin-right:0px;
 }
 
 .portfolio-project a:hover {
 	opacity:0.4;
+}
+
+div.footer {
+	width: 960px;
+  	margin: 0px auto;
+  border-top: 1px solid #7e7c7d;
+}
+
+#footer_about{
+
+width: 334px;
+	height: 107px;
+
+	border-right: 1px solid #94a192;
+	float:left;
+
+}
+
+div.footer span#footer_about_header{
+	display: block;
+font-family: 'SofiaProBold', Arial, sans-serif;
+color: #515151;
+font-size: 16px;
+text-decoration: none;
+padding-top: 8px;
+}
+
+div.footer span#footer_about_text{
+	display: block;
+font-family: 'SofiaProLightRegular', Arial, sans-serif;
+color: #515151;
+font-size: 14px;
+text-decoration: none;
+padding-top: 8px;
+}
+
+#footer_resume{
+	width: 334px;
+		height: 107px;
+
+	border-right: 1px solid #94a192;
+	float:left;
+	margin-right: 16px;
+}
+
+div.footer span#footer_resume_header{
+	display: block;
+font-family: 'SofiaProBold', Arial, sans-serif;
+color: #515151;
+font-size: 16px;
+text-decoration: none;
+padding-top: 8px;
+padding-left: 16px;
+}
+
+div.footer span#footer_resume_text{
+	display: block;
+font-family: 'SofiaProLightRegular', Arial, sans-serif;
+color: #515151;
+font-size: 14px;
+text-decoration: none;
+padding-top: 8px;
+padding-left:16px;
+}
+
+div.footer span#footer_contact_header{
+	display: block;
+font-family: 'SofiaProBold', Arial, sans-serif;
+color: #515151;
+font-size: 16px;
+text-decoration: none;
+padding-top: 8px;
+}
+
+div.footer span#footer_contact_text{
+	display: block;
+font-family: 'SofiaProLightRegular', Arial, sans-serif;
+color: #515151;
+font-size: 14px;
+text-decoration: none;
+padding-top: 8px;
 }
