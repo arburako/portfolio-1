@@ -22,9 +22,12 @@ time, mark, audio, video {
 
 
 body {
-  background-color: #f4f4f4;
+  background-color: #f8f8f8;
 }
 
+a{
+	text-decoration:none;
+}
 
 
 
@@ -106,6 +109,16 @@ div#nav {
   margin: 0px auto;
 }
 
+#resume-box {
+  
+  position:relative;
+  width: 960px;
+  height: 1280px;
+  padding-top: 28px;
+  margin: 0px auto;
+  background: white;
+}
+
 div#featured-text {
   display: block;
   position: absolute; 
@@ -140,7 +153,6 @@ div#featured span#name {
 	color: #f2f2f2;
 	font-size: 48px;
 	letter-spacing:1px;
-	padding-left:16px;
 	height: 44px;
 	padding-top:10px;
 }
@@ -151,7 +163,6 @@ div#featured span#name2 {
 	color: #f2f2f2;
 	font-size: 48px;
 	letter-spacing:1px;
-	padding-left:16px;
 }
 
 div#featured span#desc {
@@ -159,7 +170,6 @@ div#featured span#desc {
 	font-family: 'SofiaProLightRegular', Arial, sans-serif;
 	color: #fdfffd;
 	font-size: 18px;
-	padding-left:16px;
 	padding-top: 6px;
 }
 
@@ -176,10 +186,18 @@ div#featured a#oldhov {
 
 }
 
-div#featured a#oldhov:hover {
-	background-color:rgba(239,235,235,0.5);
+div#featured a#grayhov {
+	padding-left: 16px;
+	padding-top: 18px;
+	font-family: 'SofiaProLightRegular', sans-serif;
+	color: #525252;
+	font-size: 18px;
+	text-decoration: line-through;
+	display: block;
+
 
 }
+
 
 a#feat{
 	text-decoration:none;
@@ -188,6 +206,13 @@ a#feat{
 figure.tint{
 	float:left;
 	background: #94a192;
+}
+
+figure.about-bg{
+	float:left;
+	background: #000000;
+	height:220px;
+	width:960px;
 }
 
 div.content {
@@ -201,9 +226,17 @@ div.content {
 
 div#content-header-box {
 	width: 960px;
+	float:left;
 	margin: 0px auto;
 	border-bottom: 1px solid #94a192;
 	margin-bottom: 18px;
+}
+
+div#content-header-box-left {
+	width: 668px;
+	float:left;
+	margin: 0px auto;
+	border-bottom: 1px solid #94a192;
 }
 
 div.content span#content-header {
@@ -214,7 +247,92 @@ div.content span#content-header {
   
 	color: #6e786c;
 	font-size: 16px;
-padding-bottom: 8px;
+padding-bottom: 4px;
+padding-top: 4px;
+}
+
+div#content-subheader-box {
+	width: 291px;
+	float:left;
+	margin: 0px auto;
+	border-left: 1px solid #94a192;
+	border-bottom: 1px solid #94a192;
+
+}
+
+div.content span#content-subheader {
+  display: block;
+  
+  	font-family: 'SofiaProBold', sans-serif;
+
+  
+	color: #94a192;
+	font-size: 16px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+
+	padding-left:16px;
+}
+
+div#content-text-box-left{
+	width: 668px;
+	height: 200px;
+	float:left;
+	margin: 0px auto;
+	padding-top:18px;
+}
+
+div#content-subtext-box{
+	width: 291px;
+	height: 200px;
+	float:left;
+	margin: 0px auto;
+		padding-top:18px;
+border-left: 1px solid #94A192;
+}
+
+div.content a{
+color:#6E786C;
+}
+
+div.content a:hover{
+color:#515151;
+}
+
+a#greylink {
+	color:#000000;
+}
+
+
+div.content span#content-text{
+	  display: block;
+  
+  	font-family: 'SofiaProLightRegular', sans-serif;
+
+  
+	color: #252525;
+	font-size: 18px;
+}
+
+div.content span#content-text-left{
+	  display: block;
+  
+  	font-family: 'SofiaProLightRegular', sans-serif;
+
+  
+	color: #252525;
+	font-size: 18px;
+}
+
+div.content span#content-subtext{
+	  display: block;
+  
+  	font-family: 'SofiaProLightRegular', sans-serif;
+
+  
+	color: #000000;
+	font-size: 16px;
+	padding-left:16px;
 }
 
 .portfolio-project{
