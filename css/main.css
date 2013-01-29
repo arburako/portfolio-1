@@ -219,8 +219,8 @@ div.content {
 	width: 960px;
   	margin: 0px auto;
   	padding-top: 36px;
-  	height: 250px;
-	margin-bottom: 36px;
+  	margin-bottom: 36px;
+  	min-height: 250px;
 }
 
 
@@ -240,15 +240,12 @@ div#content-header-box-left {
 }
 
 div.content span#content-header {
-  display: block;
-  
-  	font-family: 'SofiaProBold', sans-serif;
-
-  
+	display: block;
+	font-family: 'SofiaProBold', sans-serif;
 	color: #6e786c;
 	font-size: 16px;
-padding-bottom: 4px;
-padding-top: 4px;
+	padding-bottom: 4px;
+	padding-top: 4px;
 }
 
 div#content-subheader-box {
@@ -276,7 +273,6 @@ div.content span#content-subheader {
 
 div#content-text-box-left{
 	width: 668px;
-	height: 200px;
 	float:left;
 	margin: 0px auto;
 	padding-top:18px;
@@ -287,8 +283,8 @@ div#content-subtext-box{
 	height: 200px;
 	float:left;
 	margin: 0px auto;
-		padding-top:18px;
-border-left: 1px solid #94A192;
+	padding-top:18px;
+	border-left: 1px solid #94A192;
 }
 
 div.content a{
@@ -335,6 +331,15 @@ div.content span#content-subtext{
 	padding-left:16px;
 }
 
+div#content-text-box-left img{
+	padding-top: 24px;
+	padding-bottom: 2px;}
+
+span.caption{
+	font-size: 12px;
+	padding-bottom: 16px;
+}
+
 .portfolio-project{
 	float:left;
 	margin-right: 42px;
@@ -373,7 +378,7 @@ div.content span#content-subtext{
 div.footer {
 	width: 960px;
   	margin: 0px auto;
-  border-top: 1px solid #7e7c7d;
+	border-top: 1px solid #7e7c7d;
 }
 
 #footer_about{
@@ -449,4 +454,15 @@ color: #515151;
 font-size: 14px;
 text-decoration: none;
 padding-top: 8px;
+}
+
+
+
+
+div.footer a{
+color:#6E786C;
+}
+
+div.footer a:hover{
+color:#515151;
 }

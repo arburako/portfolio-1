@@ -22,7 +22,7 @@
     <div id="nav">
       <div class="box">
         <ul>
-          <li><a id="resume" href="/resume.php">RESUME</a></li>
+          <li><a id="resume" href="/JessicaCrabbResume2013.pdf" target="_blank">RESUME</a></li>
           <li><a id="contact" href="/contact.php">CONTACT</a></li>
         </ul>
       </div>
